@@ -1,0 +1,23 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = crlf
+insert_final_newline = true
+
+indent_style = space
+indent_size = 2
+
+# Tab indentation (no size specified)
+[Makefile]
+indent_style = tab
+
+# Most frequently used .NET-coding-convention properties are supported
+csharp_space_between_parentheses=expressions, type_casts, control_flow_statements
+csharp_style_var_for_built_in_types=true
+
+# dotnet_diagnostic rules are supported
+dotnet_diagnostic.CS1058.severity = hint
