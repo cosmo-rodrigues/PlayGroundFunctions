@@ -19,5 +19,12 @@ namespace PlayGroundFunctions.Solutions
 
       return podeBanhar;
     }
+
+    // Challenge 02
+    public static double CalcArea(double itemBase, double itemHeight)
+    {
+      double area = itemBase * itemHeight / 2;
+      return area;
+    }
   }
 }
