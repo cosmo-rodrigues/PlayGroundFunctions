@@ -1,8 +1,11 @@
 ﻿using PlayGroundFunctions.Solutions;
 
+string tudoDeErrado = "Tá louco, te falo em time perfeito";
 
-bool resultado01 = ChallengeSolutions.CompareTrue(true, true);
-bool resultado02 = ChallengeSolutions.CompareTrue(false, true);
+string[] arrayDePalavras = ChallengeSolutions.SplitSentence(tudoDeErrado);
 
-Console.WriteLine(resultado01);
-Console.WriteLine(resultado02);
+Console.WriteLine("Resultado:");
+foreach (string palavra in arrayDePalavras)
+{
+  Console.WriteLine(palavra);
+}

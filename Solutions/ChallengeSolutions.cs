@@ -23,8 +23,13 @@ namespace PlayGroundFunctions.Solutions
     // Challenge 02
     public static double CalcArea(double itemBase, double itemHeight)
     {
-      double area = itemBase * itemHeight / 2;
-      return area;
+      return itemBase * itemHeight / 2;
+    }
+
+    // Challenge 03
+    public static string[] SplitSentence(string sentence)
+    {
+      return sentence.Split(" ");
     }
   }
 }
